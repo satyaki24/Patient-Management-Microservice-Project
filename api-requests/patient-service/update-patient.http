@@ -1,0 +1,11 @@
+### PUT request to update patient
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "Sager Yadav ok ji",
+  "email": "sagar@gmail.com",
+  "dateOfBirth": "2002-08-24",
+  "address": "123 main street"
+}
+###
